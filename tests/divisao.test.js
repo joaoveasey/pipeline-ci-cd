@@ -1,4 +1,4 @@
-const divisao = require('../src/divisao');
+import { divisao } from '../src/js/divisao'
 
 test('divisão 10 / 2 para igualar 5', () => {
     expect(divisao(10,2)).toBe(5);
