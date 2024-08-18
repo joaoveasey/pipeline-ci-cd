@@ -3,16 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <title>Calculadora
+    </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="calculator">
-        <input type="number" id="numberA" placeholder="Insira um número">
-        <input type="text" id="operation" placeholder="+, -, *, /" maxlength="1">
-        <input type="number" id="numberB" placeholder="Insira outro número">
-        <button id="calculateButton">Calcular</button>
-        <div class="result" id="result"></div>
+    <div class="container">
+        <h1>Calculadora</h1>
+        <div class="calculator">
+            <div class="input-group">
+                <input type="number" id="numberA" class="input-field" placeholder="Insira um número"> 
+            </div>
+            <div class="input-group">
+                <input type="text" id="operation" class="input-field" placeholder="+, -, *, /" maxlength="1">
+            </div>
+            <div class="input-group">
+                <input type="number" id="numberB" class="input-field" placeholder="Insira outro número">
+            </div>
+            <div class="button-group">
+                <button id="calculateButton" class="calculate-button">Calcular</button>
+            </div>
+            <div class="result-container">
+                <div class="result" id="result"></div>
+            </div>
+        </div>
     </div>
     <script type="module" src="index.js"></script>
 </body>

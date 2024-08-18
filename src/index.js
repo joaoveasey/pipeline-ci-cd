@@ -14,13 +14,13 @@ document.getElementById('calculateButton').addEventListener('click', () => {
             result = soma(numberA, numberB);
             break;
         case '-':
-            result = subtracao(numberA - numberB);
+            result = subtracao(numberA, numberB);
             break;
         case '*':
-            result = multiplicacao(numberA * numberB);
+            result = multiplicacao(numberA, numberB);
             break;
         case '/':
-            result = divisao(numberA / numberB);
+            result = divisao(numberA, numberB);
             break;
         default:
             result = 'Operação inválida!';
