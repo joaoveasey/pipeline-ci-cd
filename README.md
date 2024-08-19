@@ -58,4 +58,4 @@ npm test
 - Após realizar um merge na branch main, o deploy será feito automaticamente na Vercel.
 
 ## Deploy
-- O projeto é automaticamente implantado na Vercel sempre que a branch main é atualizada. O link para a aplicação implantada pode ser encontrado <a href="">aqui.
+- O projeto é automaticamente implantado na Vercel sempre que a branch main é atualizada. O link para a aplicação implantada pode ser encontrado <a href="https://pipeline-ci-cd.vercel.app/">aqui.
