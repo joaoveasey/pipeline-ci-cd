@@ -40,8 +40,8 @@ O pipeline de CI/CD foi configurado para realizar as seguintes etapas:
 ### **1. Clonar o Repositório**
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+git clone https://github.com/joaoveasey/pipeline-ci-cd.git
+cd pipeline-ci-cd
 ```
 
 ### **2. Instalar as Dependências**
